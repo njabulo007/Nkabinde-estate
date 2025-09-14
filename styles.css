@@ -157,6 +157,53 @@
             padding: 40px 0;
         }
 
+        .social-links {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.9);
+            color: #2C3E50;
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+
+        .social-link.facebook:hover {
+            background: #3b5998;
+            color: white;
+        }
+
+        .social-link.instagram:hover {
+            background: #e4405f;
+            color: white;
+        }
+
+        .social-link.twitter:hover {
+            background: #1da1f2;
+            color: white;
+        }
+
+        .social-link.whatsapp:hover {
+            background: #25D366;
+            color: white;
+        }
+
         .hero h1 {
             font-size: 4em;
             color: #2C3E50;
